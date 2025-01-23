@@ -1,0 +1,31 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: HappyFit
+authors:
+  - family-names: Delfino Guimarães
+    given-names: Gustavo
+  - family-names: Santana Marques
+    given-names: João Pedro
+  - family-names: Medeiros Silva 
+    given-names: Júlia
+  - family-names: Caetano Rocha
+    given-names: Matheus
+  - family-names: Caetano da Silva
+    given-names: Rafael 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Silva Tavares
+    given-names: Cleiton 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira de Araujo
+    given-names: Ivan Luiz
+    keywords:
+    - Dieta
+    - Macronutrientes
+    - Controle de alimentação
+repository-code: https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti2-3740100-happyfit
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2024-06-23
+deploy-link: https://happyfit-sui4.onrender.com/

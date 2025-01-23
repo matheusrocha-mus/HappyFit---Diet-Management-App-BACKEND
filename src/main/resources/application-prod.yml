@@ -1,0 +1,36 @@
+spring:
+    application:
+        name: happyfit
+
+    output:
+        ansi:
+            enabled: always
+
+    jpa:
+        show-sql: false
+        defer-datasource-initialization: true
+        hibernate:
+            ddl-auto: create
+
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+
+    sql:
+        init:
+            mode: always
+
+    datasource:
+        name: happyfit
+        url: jdbc:postgresql://${PROD_DB_HOST}:${PROD_DB_PORT}/${PROD_DB_NAME}
+        username: ${PROD_DB_USERNAME}
+        password: ${PROD_DB_PASSWORD}
+
+server:
+    error:
+        include-exception: true
+
+#jasypt:
+#    encryptor:
+#        algorithm: PBEWithMD5AndDES
+#        iv-generator-classname: org.jasypt.iv.NoIvGenerator
