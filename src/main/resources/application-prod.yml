@@ -6,19 +6,19 @@ spring:
         ansi:
             enabled: always
 
+    sql:
+        init:
+            mode: always
+
     jpa:
         show-sql: false
         defer-datasource-initialization: true
         hibernate:
-            ddl-auto: create
+            ddl-auto: update
 
         properties:
             hibernate:
                 dialect: org.hibernate.dialect.PostgreSQLDialect
-
-    sql:
-        init:
-            mode: always
 
     datasource:
         name: happyfit
@@ -26,11 +26,11 @@ spring:
         username: ${PROD_DB_USERNAME}
         password: ${PROD_DB_PASSWORD}
 
-server:
-    error:
-        include-exception: true
-
 #jasypt:
 #    encryptor:
 #        algorithm: PBEWithMD5AndDES
 #        iv-generator-classname: org.jasypt.iv.NoIvGenerator
+
+server:
+    error:
+        include-exception: true
