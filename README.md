@@ -20,7 +20,7 @@ Projeto de desenvolvimento de um site intuitivo e prático para a elaboração e
 
 ## Instruções de uso geral
 
-O sistema pode ser acessado através do link https://happyfit-sui4.onrender.com/. Após acessar, o usuário deve realizar o cadastro, escolhendo entre duas funções: nutricionista, para gerenciar as dietas dos seus clientes, ou usuário comum, para gerenciar e definir sua própria dieta ou ser acompanhado por um nutricionista. Após o cadastro, o login deve ser efetuado com as informações fornecidas.
+O sistema pode ser acessado através do link https://happyfit.vercel.app. Após acessar, o usuário deve realizar o cadastro, escolhendo entre duas funções: nutricionista, para gerenciar as dietas dos seus clientes, ou usuário comum, para gerenciar e definir sua própria dieta ou ser acompanhado por um nutricionista. Após o cadastro, o login deve ser efetuado com as informações fornecidas.
 
 Para excluir a conta ou alterar a senha, o usuário deve acessar o ícone do perfil, clicar no link "Minha Conta" e selecionar a opção desejada. Ao excluir o perfil, todos os dados serão apagados. Para modificar a senha, o usuário deve digitar e confirmar a nova senha.
 
