@@ -22,7 +22,7 @@ public class KeepAlive {
     private static final Logger logger = LoggerFactory.getLogger(KeepAlive.class);
 
     @Transactional
-    @Scheduled(cron = "0 0,15,30,45 7-23 * * *")
+    @Scheduled(cron = "0 0,12,24,36,48 7-23 * * *")
     public void keepAlive() {
         logger.info("KEEP ALIVE CRON");
         User user = userService.findByEmail("admin@example.com");
