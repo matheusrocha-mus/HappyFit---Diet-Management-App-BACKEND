@@ -19,14 +19,14 @@ public class KeepAlive {
     @Autowired
     private UserService userService;
 
-    private static final Logger logger = LoggerFactory.getLogger(DatabaseSeeder.class);
+    private static final Logger logger = LoggerFactory.getLogger(KeepAlive.class);
 
     @Transactional
     @Scheduled(cron = "0 0,15,30,45 7-23 * * *")
     public void keepAlive() {
         logger.info("KEEP ALIVE CRON");
         User user = userService.findByEmail("admin@example.com");
-        if (user != null) logger.info("KEEP ALIVE SUCCESFULLY FETCHED " + user.getName() + " USER");
+        if (user != null) logger.info("KEEP ALIVE SUCCESFULLY FETCHED '" + user.getName() + "' USER");
         else logger.error("KEEP ALIVE FAILED TO FETCH USER");
     }
 }
