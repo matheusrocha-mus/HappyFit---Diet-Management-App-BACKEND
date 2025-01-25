@@ -1,4 +1,4 @@
-package com.happyfit.happyfit.services;
+/* package com.happyfit.happyfit.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -30,3 +30,4 @@ public class KeepAlive {
         else logger.error("KEEP ALIVE FAILED TO FETCH USER");
     }
 }
+ */
